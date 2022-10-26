@@ -10,26 +10,41 @@
 </head>
 <body>
     <header class="header">
-        <a href="">
-            <svg class="logo" width="82" height="31">
-            <use href="./img/svg/icons.svg#icon-odigo-Logo"></use>
-            </svg>
+        <div class="wrapper">
+        <div class="header__wrapper">
+                <div class="header__logo">
+              <a href="/index.html" class="header__logo-link">
+           <svg class="header__logo-icon" width="82" height="31">
+            <use href="./img/svg/icons.svg#odigo-logo"></use>
+            </svg> 
         </a>
-        
-        <ul>
-        <li><a href="">Articles</a></li>
-        <li><a href="">Locations</a></li>
-        <li><a href="">Videos</a></li>
-        <li><a href="">Sign in</a></li>
+        </div> 
+        <nav class="header__nav">
+        <ul class="header__list">
+        <li class="header__item"><a href="" class="header__link link">Articles</a></li>
+        <li class="header__item"><a href="" class="header__link link">Locations</a></li>
+        <li class="header__item"><a href="" class="header__link link">Videos</a></li>
+        <li class="header__item"><a href="" class="header__link link">Sign in</a></li>
+        </ul> 
+        </nav>
+        </div>
+        </div>
     </header>
-   <main>
-    <section>
-        <div>
-            <h1>Discover Amazing places in Japan</h1>
-            <p>Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, </p>
-            <p>What would you like to do?</p>
-            <p>Where would you like to go?</p>
-            <button type="button">SEARCH</button>
+   <main class="main">
+    <section class="intro">
+        <div class="wrapper">
+            <h1 class="intro__titel">Discover Amazing places in Japan</h1>
+            <p class="intro__subtitel">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, </p>
+            <form class="search-form">
+                <fieldset class="search-form__wrap">
+                    <p class="search-form__info">
+                        <input type="text" name="user-like-to-do" class="search-form__field" placeholder="What would you like to do?">
+                        <input type="text" name="user-like-to-go" class="search-form__field" placeholder="Where would you like to go?" >
+                        <button type="submit" class="search-form__submit">search</button>
+                    </p>
+                </fieldset>
+            </form>
+            
         </div>
     </section>
    </main>
