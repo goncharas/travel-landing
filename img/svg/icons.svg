@@ -8,5 +8,8 @@
 <symbol id="circle-icon" viewBox="0 0 32 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.2" d="M30.4 16c0 7.953-6.447 14.4-14.4 14.4s-14.4-6.447-14.4-14.4v0c0-7.953 6.447-14.4 14.4-14.4s14.4 6.447 14.4 14.4v0z"></path>
 </symbol>
+<symbol id="benefits-garage" viewBox="0 0 32 32">
+<path d="M0 0h32v32h-32z"></path>
+</symbol>
 </defs>
 </svg>
